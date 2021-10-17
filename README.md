@@ -5,9 +5,9 @@ In this repository, you can find the [official Continuous Engineering Project pu
 ## Guide to the roadmap
 Every item on the roadmap is an issue, with a label that indicates each of the following:
 
+- A **delivery phase** that describes the current phase of the roadmap item. See [below](#Delivery phase labels) for a guide to the delivery phases
 - A **issue kind** that indicates the type of issue raised. For a list of current issue types, see [below](#Kind labels)
 - A **issue area** that indicates the area of the product to which the item belongs. For a list of current product areas, see [below](#Area labels)
-- A **delivery phase** that describes the current phase of the roadmap item. See [below](#Delivery phase labels) for a guide to the delivery phases
 
 ### Roadmap stages
 The roadmap is arranged on a project board to give a sense for how far out each item is on the horizon. Every feature is added to a particular project board column according to when it is expected to ship next. The roadmap is subject to change, especially further out on the timeline. 
@@ -21,11 +21,27 @@ The roadmap is arranged on a project board to give a sense for how far out each 
 - **Released:** *The issue is available in a stable release*
 
 
+## Delivery phase labels
+Delivery phases labels indicate the stages that the issue goes through, and each issue can have only one delivery phase label tagged:
+
+- **phase/icebox:** *Under review*\
+  The issue is being reviewed.
+- **phase/backlog:** *Considered for a future release*\
+  The issue is in the backlog for a future release, but has not been scheduled for a release.
+- **phase/scheduled:** *Scheduled to a release*\
+  The issue is scheduled to an upcoming release.
+- **phase/wip:** *In development cycle*\
+  The issue is within the current development cycle, and is managed through the [Work In Progress board][WipBoard].
+- **phase/beta:** *Available as a beta release*\
+  The issue is merged to main branch and is available as a beta release.
+- **phase/released:** *Available as a stable release*\
+  The issue is available in a stable release.
+
 ## Kind labels
-There are two types of kind labels, Core & Additional, below is a list of each type.
+There are two types of kind labels, _Core & Additional_, below is a list of labels for each type.
 
 ### Core kind labels
-Each issue will have one of the core kind labels tagged:
+Each issue can have only one core kind label tagged:
 
 - **kind/feature:** *An idea for the project*
 - **kind/task:** *Activity or chore which needs to be done*
@@ -45,28 +61,23 @@ Each issue can have multiple additional kind labels tagged:
 
 
 ## Area labels
-The following is a list of our current product areas:
+Area labels indicate the area within the project that the issues relates to, and each issue can have multiple areas tagged:
 
-- **area/??:** *??*
+- **area/ci_cd:** *Factory CI/CD systems*
+- **area/im:** *Factory IM systems*
+- **area/scm_binary:** *Factory code binary management systems*
+- **area/scm_code:** *Factory source code management systems*
+- **area/code_quality:** *Factory code quality systems*
+- **area/alm:** *Factory application lifecycle management systems*
+- **area/infra:** *Factory infrastructure management systems*
+- **area/gcp:** *GCP infrastructure or services*
+- **area/aws:** *AWS infrastructure or services*
+- **area/azure:** *Azure infrastructure or services*
+- **area/sm_bot:** *Factory Scrum Master bot*
+- **area/devops_bot:** *Factory DevOps bot*
 
 _More area labels will be added in the future as needed._
 
-
-## Delivery phase labels
-Release phases indicate the stages that the issue goes through.
-
-- **phase/icebox:** *Under review*\
-  The issue is being reviewed.
-- **phase/backlog:** *Considered for a future release*\
-  The issue is in the backlog for a future release, but has not been scheduled for a release.
-- **phase/scheduled:** *Scheduled to a release*\
-  The issue is scheduled to an upcoming release.
-- **phase/wip:** *In development cycle*\
-  The issue is within the current development cycle, and is managed through the [Work In Progress board][WipBoard].
-- **phase/beta:** *Available as a beta release*\
-  The issue is merged to main branch and is available as a beta release.
-- **phase/released:** *Available as a stable release*\
-  The issue is available in a stable release.
 
 [RoadmapBoard]: https://github.com/ContinuousEngineeringProject/issues/projects/1
 [WipBoard]: https://github.com/ContinuousEngineeringProject/issues/projects/4
