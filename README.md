@@ -69,6 +69,7 @@ Area labels indicate the area within the project that the issues relates to, and
 - **area/scm_code:** *Factory source code management systems*
 - **area/code_quality:** *Factory code quality systems*
 - **area/alm:** *Factory application lifecycle management systems*
+- **area/monitor:** *Factory monitoring systems*
 - **area/infra:** *Factory infrastructure management systems*
 - **area/gcp:** *GCP infrastructure or services*
 - **area/aws:** *AWS infrastructure or services*
