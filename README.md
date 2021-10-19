@@ -67,7 +67,7 @@ Area labels indicate the area within the project that the issues relates to, and
 - **area/im:** *Factory IM systems*
 - **area/scm_binary:** *Factory code binary management systems*
 - **area/scm_code:** *Factory source code management systems*
-- **area/code_quality:** *Factory code quality systems*
+- **area/code_analysis:** *Factory code quality systems*
 - **area/alm:** *Factory application lifecycle management systems*
 - **area/monitor:** *Factory monitoring systems*
 - **area/infra:** *Factory infrastructure management systems*
