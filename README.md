@@ -52,6 +52,7 @@ Each issue can have only one core kind label tagged:
 ### Additional kind labels
 Each issue can have multiple additional kind labels tagged:
 
+- **kind/ready:** *This issue is ready to be developed*
 - **kind/duplicate:** *This issue or pull request already exists*
 - **kind/good first issue:** *Good for newcomers*
 - **kind/help wanted:** *Extra attention is needed*
