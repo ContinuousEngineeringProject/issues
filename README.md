@@ -5,9 +5,9 @@ In this repository, you can find the [official Continuous Engineering Project pu
 ## Guide to the roadmap
 Every item on the roadmap is an issue, with a label that indicates each of the following:
 
-- A **delivery phase** that describes the current phase of the roadmap item. See [below](#Delivery-phase-labels) for a guide to the delivery phases
-- A **issue kind** that indicates the type of issue raised. For a list of current issue types, see [below](#Kind-labels)
-- A **issue area** that indicates the area of the product to which the item belongs. For a list of current product areas, see [below](#Area-labels)
+- A **delivery phase** that describes the current phase of the roadmap item. See [below](#Delivery-phase-labels) for a guide to the delivery phases.
+- A **issue kind** that indicates the type of issue raised. For a list of current issue types, see [below](#Kind-labels).
+- A **issue area** that indicates the area of the product to which the item belongs. For a list of current product areas, see [below](#Area-labels).
 
 ### Roadmap stages
 The roadmap is arranged on a project board to give a sense for how far out each item is on the horizon. Every feature is added to a particular project board column according to when it is expected to ship next. The roadmap is subject to change, especially further out on the timeline. 
@@ -53,6 +53,7 @@ Each issue can have only one core kind label tagged:
 Each issue can have multiple additional kind labels tagged:
 
 - **kind/ready:** *This issue is ready to be developed*
+- **kind/doing:** *This issue is being activity developed*
 - **kind/duplicate:** *This issue or pull request already exists*
 - **kind/good first issue:** *Good for newcomers*
 - **kind/help wanted:** *Extra attention is needed*
@@ -77,6 +78,8 @@ Area labels indicate the area within the project that the issues relates to, and
 - **area/azure:** *Azure infrastructure or services*
 - **area/sm_bot:** *Factory Scrum Master bot*
 - **area/devops_bot:** *Factory DevOps bot*
+- **area/cli:** *Factory CLI*
+- **area/api:** *Factory API*
 
 _More area labels will be added in the future as needed._
 
