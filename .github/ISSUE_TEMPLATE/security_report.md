@@ -1,10 +1,13 @@
 ---
 name: Security Report
 about: Create a security report alerting us to an issue
-labels: 'kind/security'
+labels: security, triage
 ---
 
-#### **Problem Statement**
 
+### **What is the problem?**
+
+
+### **Why is this needed?**
 
 

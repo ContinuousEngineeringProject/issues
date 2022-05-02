@@ -1,8 +1,11 @@
 ---
 name: Documentation Request
-about: Improvements or additions to documentation
-labels: 'kind/documentation'
+about: Documentation improvements or additions
+labels: documentation, triage
 ---
 
-#### **Documentation Change**
+### **What would you like to be added**
+
+
+### **Why is this needed**
 
